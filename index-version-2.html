@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Trusted Sites</title>
+    <meta content="Modal trusted sites" name="description">
+    <meta content="login cirrus" name="keywords">
+    <meta content="Gricel Sepulveda" name="author">
+    <meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport">
+    <!--NORMALIZE-->
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <!--NUBOX FONT-->
+    <link href="fonts/nubox-font/nubox-font.css" rel="stylesheet" type="text/css">
+    <!--ROBOTO FONT-->
+    <link href="fonts/roboto/roboto.css" rel="stylesheet" type="text/css">
+    <!--CUSTOM STYLES-->
+    <link href="css/trusted-sites.css" rel="stylesheet" type="text/css">
+    <!--JQUERY-->
+    <script src="js/jquery-1.11.2.js"></script>
+    <!--CUSTOM SCRIPTS-->
+    <script src="js/trusted-sites.js"></script>
+  </head>
+  <body>
+    <!--ALERT TRUSTED SITES-->
+    <div class="contenedor-alert-trusted">
+      <div class="wrapper-alert-trusted">
+        <div class="figure-alert-trusted">
+          <div class="wrapper-icon">
+            <span class="nuboxFont nubox-internet-explorer"></span>
+          </div>
+        </div>
+        <div class="description-alert-trusted">
+          <p class="p-alert-trusted">
+            <span class="bold">Estás usando Internet Explorer. </span> Para que disfrutes de una buena experiencia al usar el nuevo login, te recomendamos revisar tu configuración.
+          </p>
+          <button class="button-alert-trusted"><span class="nuboxFont nubox-asistente"></span>¿Cómo revisar?</button>
+        </div>
+      </div>
+    </div>
+    <!--MODAL TRUSTED SITES-->
+    <div class="contenedor-modal-trusted">
+      <div class="bg-modal-trusted">
+        <div class="modal-trusted">
+          <span class="nuboxFont nubox-error"></span>
+          <h1 class="h1-modal-trusted">
+            ¿Cómo configurar?
+          </h1>
+          <div class="wizard-trusted-line">
+            <div class="line-border">
+              <div class="border-line border-line-1"></div>
+              <div class="border-line border-line-2 display-none"></div>
+              <div class="border-line border-line-3 display-none"></div>
+              <div class="border-line border-line-4 display-none"></div>
+            </div>
+            <span class="span-wizard-trusted-line line-1">1</span><span class="span-wizard-trusted-line line-2 desactivado">2</span><span class="span-wizard-trusted-line line-3 desactivado">3</span><span class="span-wizard-trusted-line line-4 desactivado">4</span>
+          </div>
+          <div class="ocultador-flex-modal-trusted">
+            <div class="wrapper-flex-modal-trusted">
+              <section class="step-modal-trusted step-1">
+                <p class="p-modal-trusted">
+                  Paso 1:
+                </p>
+                <figure class="figure-modal-trusted">
+                  <img class="img-1" src="img/paso-1.png">
+                </figure>
+                <p class="description-modal-trusted">
+                  Haz click en el ícono del engrane  ubicado al lado derecho de Internet Explorer y luego selecciona en el menú <span class="bold">“Opciones de Internet”.</span>
+                </p>
+              </section>
+              <section class="step-modal-trusted step-2">
+                <p class="p-modal-trusted">
+                  Paso 2:
+                </p>
+                <figure class="figure-modal-trusted">
+                  <img class="img-2" src="img/paso-2.png">
+                </figure>
+                <p class="description-modal-trusted">
+                  Selecciona <span class="bold">“Seguridad” </span>y haz click en <span class="bold">“Sitios de confianza" </span>y luego en  el botón <span class="bold">“sitios”</span>
+                </p>
+              </section>
+              <section class="step-modal-trusted step-3">
+                <p class="p-modal-trusted">
+                  Paso 3:
+                </p>
+                <figure class="figure-modal-trusted">
+                  <img class="img-3" src="img/paso-3.png">
+                </figure>
+                <p class="description-modal-trusted">
+                  Escribe  <span class="bold">nubox.com </span>y haz click en agregar.
+                </p>
+              </section>
+              <section class="step-modal-trusted step-4">
+                <p class="p-modal-trusted">
+                  Paso 4:
+                </p>
+                <figure class="figure-modal-trusted">
+                  <img class="img-4" src="img/paso-4.png">
+                </figure>
+                <p class="description-modal-trusted">
+                  Si ya tenías agregado a www.nubox.com, favor reemplázalo por <span class="bold">nubox.com </span>¡Listo! Cierra las ventanas y actualiza la página.
+                </p>
+              </section>
+            </div>
+            <footer class="footer-modal-trusted">
+              <button class="btn-modal-trusted azul">atrás</button><button class="btn-modal-trusted naranja">siguiente</button>
+            </footer>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
